@@ -1,5 +1,7 @@
 # lispm-prebuilt
 
+> **Archived — Merged into [lispm-ui](https://github.com/LispMachineLab/lispm-ui):** Since `lispm-ui` 0.8.0, `lispm-prebuilt.el` lives in [LispMachineLab/lispm-ui](https://github.com/LispMachineLab/lispm-ui). Declare `(lispm-ui "0.8.0")` in `Package-Requires` and `(require 'lispm-prebuilt)` with `lispm-ui` on `load-path`. This repository is archived for historical reference.
+
 The native code of [LispM](https://lispm.ai)'s packages, downloaded and checked: a module Emacs
 loads, as [lispm-gl](https://github.com/LispMachineLab/lispm-gl)'s and
 [lispm-remote](https://github.com/LispMachineLab/lispm-remote)'s, or a program it runs, as
